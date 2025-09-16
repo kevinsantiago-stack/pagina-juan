@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="ejercicio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg fixed-top shadow bg-black" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">🕹️ Zona Gamer</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#noticias">Noticias</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#reseñas">Reseñas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ranking">Top Juegos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#entrevista">Entrevistas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#suscribete">Suscribete</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faq">Preguntas frecuentes</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <header class="hero-video">
+        <video autoplay loop muted playsinline class="bg-video">
+            <source src="space.gif" type="gif/mp4">
+            <source src="space.gif" type="gif/webm">
+        </video>
+        <div class="hero-content">
+            <h1>Explora el universo gamer</h1>
+            <p>Noticias,reseñas, lanzamientos y mas...</p>
+            <a href="#noticias" class="btn btn-gamer-cyan btn-lg">Ver novedades</a>
+        </div>
+    </header>
+
+    <section id="noticias" class="section bg-dark">
+        <div class="container">
+            <div class="row g-4">
+
+                <!--Noticias 1-->
+                <div class="col-md-4">
+                    <div class="card h-100 bg-black text-white border-0">
+                        <img src="Fornite.jpg" class="card-img-top" alt="Fornite">
+                        <div class="card-body">
+                            <h5 class="card-title">Fornite lanza nueva temporada</h5>
+                            <p>Epic Games revoluciona el metaverso con la integracion de conciertos, misiones, y nuevas
+                                skins</p>
+                            <a href="#" class="btn btn-outline-light">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+                <!--Noticia 2-->
+                <div class="col-md-4">
+                    <div class="card h-100 bg-black text-white border-0">
+                        <img src="eldenring.jpeg" class="card-img-top" alt="Elden Ring">
+                        <div class="card-body">
+                            <h5 class="card-title">Elden Ring lanza nueva temporada</h5>
+                            <p>Epic Games revoluciona el metaverso con la integracion de conciertos, misiones, y nuevas
+                                skins</p>
+                            <a href="#" class="btn btn-outline-light">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Noticia 3-->
+                <div class="col-md-4">
+                    <div class="card h-100 bg-black text-white border-0">
+                        <img src="mariobros.jpg" class="card-img-top" alt="Super Mario Bros">
+                        <div class="card-body">
+                            <h5 class="card-title">Mario Bross lanza nueva temporada</h5>
+                            <p>Epic Games revoluciona el metaverso con la integracion de conciertos, misiones, y nuevas
+                                skins</p>
+                            <a href="#" class="btn btn-outline-light">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Reseñas-->
+    <section id="reseñas" class="section bg-dark ">
+        <div class="container">
+            <h2 class="section-title">✍🏻Reseñas recientes</h2>
+            <div class="row g-4">
+
+                <!--Reseña 1-->
+                <div class="col-md-6">
+                    <div class="card bg-black text-white border-0 h-100">
+                        <div class="row g-0">
+                            <di class="col-md-4">
+                                <img src="game.jpg" alt="" class="img-fluid rounded-start">
+                            </di>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Elden Ring: Shadow of the Erdtree</h5>
+                                    <p class="card-text">La expancion mas esperada de todo el año ha superado todas las
+                                        expectativas, un universo oscuro y desafiante</p>
+                                    <p class="mb-2">⭐⭐⭐⭐⭐(5/5)</p>
+                                    <a href="" class="btn btn-outline-light btn-sm">Ver analisis completo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Reseña 2-->
+                <div class="col-md-6">
+                    <div class="card bg-black text-white border-0 h-100">
+                        <div class="row g-0">
+                            <di class="col-md-4">
+                                <img src="game.jpg" alt="" class="img-fluid rounded-start">
+                            </di>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Elden Ring: Shadow of the Erdtree</h5>
+                                    <p class="card-text">La expancion mas esperada de todo el año ha superado todas las
+                                        expectativas, un universo oscuro y desafiante</p>
+                                    <p class="mb-2">⭐⭐⭐⭐⭐(5/5)</p>
+                                    <a href="" class="btn btn-outline-light btn-sm">Ver analisis completo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Reseña 3-->
+                <div class="col-md-6">
+                    <div class="card bg-black text-white border-0 h-100">
+                        <div class="row g-0">
+                            <di class="col-md-4">
+                                <img src="game.jpg" alt="" class="img-fluid rounded-start">
+                            </di>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Elden Ring: Shadow of the Erdtree</h5>
+                                    <p class="card-text">La expancion mas esperada de todo el año ha superado todas las
+                                        expectativas, un universo oscuro y desafiante</p>
+                                    <p class="mb-2">⭐⭐⭐⭐⭐(5/5)</p>
+                                    <a href="" class="btn btn-outline-light btn-sm">Ver analisis completo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Reseña 4-->
+                <div class="col-md-6">
+                    <div class="card bg-black text-white border-0 h-100">
+                        <div class="row g-0">
+                            <di class="col-md-4">
+                                <img src="game.jpg" alt="" class="img-fluid rounded-start">
+                            </di>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Elden Ring: Shadow of the Erdtree</h5>
+                                    <p class="card-text">La expancion mas esperada de todo el año ha superado todas las
+                                        expectativas, un universo oscuro y desafiante</p>
+                                    <p class="mb-2">⭐⭐⭐⭐⭐(5/5)</p>
+                                    <a href="" class="btn btn-outline-light btn-sm">Ver analisis completo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Ranking de juegos -->
+    <section id="ranking" class="section bg-dark text-white">
+        <div class="container">
+            <h2 class="section-title">🎮Top 5 Juegos Populares</h2>
+            <div class="row g-4">
+
+                <!--Juego 1-->
+                <div class="col-md-4">
+                    <div class="card bg-black text-white border-0 h-100 shadow ">
+                        <img src="minecraft.png" class="card-img-top" alt="Free Fiere">
+                        <div class="card-body">
+                            <h5 class="card-title"> #1 Minecraft:</h5>
+                            <p class="card-text">El regreso mas esperado. Mundo abierto, narrativa inmersa y
+                                multijugador masivo</p>
+                            <div class="progress mb-2">
+                                <div class="progress-bar bg-danger" style="width: 98%;">98%</div>
+                            </div>
+                            <span class="small text-muted">Popularidad global</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Juego 2-->
+                <div class="col-md-4">
+                    <div class="card bg-black text-white border-0 h-100 shadow">
+                        <img src="clash.jpg" class="card-img-top" alt="Free Fiere">
+                        <div class="card-body">
+                            <h5 class="card-title"> #2 Fortnite:</h5>
+                            <p class="card-text">El regreso mas esperado. Mundo abierto, narrativa inmersa y
+                                multijugador masivo</p>
+                            <div class="progress mb-2">
+                                <div class="progress-bar bg-danger" style="width: 80%;">80%</div>
+                            </div>
+                            <span class="small text-muted">Popularidad global</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Juego 3-->
+
+                <div class="col-md-4">
+                    <div class="card bg-black text-white border-0 h-100 shadow">
+                        <img src="leagueofleagends.jpg" class="card-img-top" alt="Free Fiere">
+                        <div class="card-body">
+                            <h5 class="card-title"> #3 League of Legends</h5>
+                            <p class="card-text">El regreso mas esperado. Mundo abierto, narrativa inmersa y
+                                multijugador masivo</p>
+                            <div class="progress mb-2">
+                                <div class="progress-bar bg-danger" style="width: 68%;">68%</div>
+                            </div>
+                            <span class="small text-muted">Popularidad global</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Juego 4-->
+                <div class="col-md-6">
+                    <div class="card bg-black text-white border-0 h-100 shadow">
+                        <img src="valorant.jpg" class="card-img-top" alt="Free Fiere">
+                        <div class="card-body">
+                            <h5 class="card-title"> #4 ValorantI</h5>
+                            <p class="card-text">El regreso mas esperado. Mundo abierto, narrativa inmersa y
+                                multijugador masivo</p>
+                            <div class="progress mb-2">
+                                <div class="progress-bar bg-danger" style="width: 50%;">50%</div>
+                            </div>
+                            <span class="small text-muted">Popularidad global</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Juego 5-->
+                <div class="col-md-6">
+                    <div class="card bg-black text-white border-0 h-100 shadow">
+                        <img src="counterstrike.jpg" class="card-img-top" alt="Free Fire">
+                        <div class="card-body">
+                            <h5 class="card-title"> #5 Counter-Strike 2</h5>
+                            <p class="card-text">El regreso mas esperado. Mundo abierto, narrativa inmersa y
+                                multijugador masivo</p>
+                            <div class="progress mb-2">
+                                <div class="progress-bar bg-danger" style="width: 38%;">38%</div>
+                            </div>
+                            <span class="small text-muted">Popularidad global</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Enrevistas-->
+    <section id="entrevista" class="section bg-dark text-white">
+        <div class="container">
+            <h2 class="section-title">🎙️ Entrevistas Exclusivas</h2>
+            <div class="row g-4">
+
+                <!--Entrevista 1-->
+                <div class="col col-md-6">
+                    <div class="card bg-black text-white border-0 h-100 shadow-1g">
+                        <div class="row  g-0">
+                            <div class="col-md-5">
+                                <img src="halflife.jpg" class="img-fluid h-100 object-fit-cover" alt="Half life">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body">
+                                    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas itaque natus
+                                        incidunt vero omnis ipsa perspiciatis nihil necessitatibus quasi, quidem rerum
+                                        expedita, ex nostrum nisi, maxime numquam ut deserunt optio?</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!--Entrevista 2-->
+                <div class="col col-md-6">
+                    <div class="card bg-black text-white border-0 h-100 shadow-1g">
+                        <div class="row  g-0">
+                            <div class="col-md-5">
+                                <img src="callofduty.jpg" class="img-fluid h-100 object-fit-cover" alt="call of duty">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body">
+                                    <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi eligendi
+                                        sint quidem adipisci facilis veniam quis quasi ratione. Est vel nam, inventore
+                                        odio nemo optio facere corrupti consectetur provident aspernatur.</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!--Entrevista 3-->
+                <div class="col col-md-6">
+                    <div class="card bg-black text-white border-0 h-100 shadow-1g">
+                        <div class="row  g-0">
+                            <div class="col-md-5">
+                                <img src="zelda.jpg" class="img-fluid h-100 object-fit-cover" alt="Zelda">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body">
+                                    <h5> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit quidem
+                                        blanditiis architecto ad dolorum distinctio voluptatem, sint fugiat iure
+                                        inventore nesciunt quae accusantium accusamus repudiandae ab magnam quibusdam
+                                        mollitia ea?</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--Suscripcion-->
+    <section id="suscribete" class="section bg-dark text-white">
+        <div class="container">
+
+            <div id="Suscribete" class="mb-5 text-center">
+                <h2 class="section-title">📬Suscribete a nuestro boletin</h2>
+                <p class="text-center mb-4">Recibe novedades, lanzamientos, y contenido exclusivo en tu correo</p>
+                <form class="row justify-content-center g-3">
+                    <div class="col-md-6">
+                        <input type="email" class="form-control form-control-lg bg-black text-white border-secundary"
+                            placeholder="Tu correo electronico">
+                    </div>
+                    <div class="col-md-2 d-grid">
+                        <button type="submit" class="btn btn-danger btn-lg">Suscribirme</button>
+                    </div>
+                </form>
+            </div>
+
+            <hr class="my-4 border-secundary">
+
+
+            <div id="testimonio" class="mb-5">
+                <h2 class="section-title">💬 Lo que dicen
+                    nuestros lectores</h2>
+                <div class="row g-4">
+
+                    <div class="col-md-4">
+                        <div class="card bg-black text-white border-secondary h-100">
+                            <div class="card-body">
+                                <p class="card-text">"¡Me encanta como cubren los torneos de eSport! Siempre están
+                                    actualizados."</p>
+                                <h6 class="card-subtitle  text-muted mt-3">- Camila R., fan de Valorant</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card bg-black text-white border-secondary h-80">
+                            <div class="card-body">
+                                <p class="card-text">Esto esta chevere el juego, una belleza re bueno</p>
+                                <h6 class="card-subtitle text-muted mt-3">Popularidad global</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card bg-black text-white border-secondary h-80">
+                            <div class="card-body">
+                                <p class="card-text">Esta genial el juego, una belleza re bueno</p>
+                                <h6 class="card-subtitle text-muted mt-3">Popularidad global</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="my-5 border-secundary">
+    </section>
+
+    <!--Preguntas frecuentes-->
+    <div id="faq" class="section bg-dark">
+            <h2 class="section-title text-center letra  p-3 bg-dark" >❓ Preguntas frecuentes</h2>
+            <div class="accordion accordion-flush" id="faqAccordion">
+
+
+                <div class="accordion-item bg-black border-secondary">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed bg-black text-white" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq1">
+                              ¿Cada cuanto publicaran nuevo contenido?
+                        </button>
+                    </h2>
+                    <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAcordion">
+                        <div class="accordion-body text-light">
+                            Publicamos articulos y noticias todas las semanas. Las reseñas salen cada 15 dias.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="accordion-item bg-black border-secondary">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed bg-black text-white" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq2">
+                              ¿Cada cuanto hacen eventos?
+                        </button>
+                    </h2>
+                    <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAcordion">
+                        <div class="accordion-body text-light">
+                             Hacemos eventos para nuestro usuarios todos los meses, donde se podran llevar maravillosos juego gratis.
+                        </div>
+                    </div>
+                </div>   
+                
+                <div class="accordion-item bg-black border-secondary">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed bg-black text-white" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq3">
+                              ¿Como puedo ayudar al blog?
+                        </button>
+                    </h2>
+                    <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAcordion">
+                        <div class="accordion-body text-light">
+                             Comparte en tus redes sociales nusto blog y recomiendanos con tus amigos.
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+
+        <!--Footer-->
+        <footer class="bg-white text-black pt-5 pb-4">
+            <div class="container">
+                <div class="row">
+                    <!--Branding-->
+                    <div class="col-md-4 mb-4">
+                        <h4 class="fw-bold text-">ZoneWise</h4>
+                    </div>
+                    <!--Enlaces rapidos-->
+                    <div class="col-md-4 mb-4">
+                        <h5 class="text-light">Navegación</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#noticias" class="text-decoration-none text-white">📰Noticias</a></li>
+                            <li><a href="#reseñas" class="text-decoration-none text-white">🎮Reseñas</a></li>
+                            <li><a href="#ranking" class="text-decoration-none text-white">🏆Top mejores juegos</a></li>
+                            <li><a href="#entrevistas" class="text-decoration-none text-white">🎙️Entrevistas</a></li>
+                            <li><a href="#faq" class="text-decoration-none text-white">❓FAQ</a></li>
+                        </ul>
+                    </div>
+                    <!--Redes sociales-->
+                    <div class="col-md-4 mb-4">
+                        <h5 class="text-light">Siguenos</h5>
+                        <div class="d-flex gap-3">
+                            <a href="#" class="text-danger fs-5"><i class="bi bi-youtube"></i></a>
+                            <a href="#" class="text-primary fs-5"><i class="bi bi-twitter"></i></a>
+                            <a href="#" class="text-info fs-5"><i class="bi bi-discord"></i></a>
+                            <a href="#" class="text-light fs-5"><i class="bi bi-twitch"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <hr class="border-secondary">
+
+                <div class="agra text-center text-muted small">
+                    &copy; 2025 Zona Gamer. Todos los derechos reservados. Diseñado con ❤️ para la comunidad gamer.
+                    <a href="#noticias" class="btn btn-lg">Ver novedades</a>
+                </div>
+            </div>
+        </footer> 
+
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
